@@ -5,10 +5,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://altushost-swe.dl.sourceforge.net/project/evolution-x/tissot/EvolutionX_5.6_tissot-11-20210415-0619-OFFICIAL.zip
   ROM_NAME: Generic
-  BUILD_AB: true
-  BUILD_Aonly: false
+  BUILD_AB: false
+  BUILD_Aonly: true
   ROM_AONLY: ROM_A.7z
   ROM_AB: ROM_AB.7z
 
